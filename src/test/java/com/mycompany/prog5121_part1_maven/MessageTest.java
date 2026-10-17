@@ -128,5 +128,11 @@ public void testNullMessageText() {
 
     assertFalse(message.checkMessageText());
 }
+@Test
+public void testNullMessageID() {
+    Message message = new Message();
+    message.setMessageID(null);
 
+    assertFalse(message.checkMessageID());
+}
 }
