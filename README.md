@@ -16,7 +16,7 @@ This project was developed for PROG5121 Programming 1A Part 2 as part of the Por
 
 The project was tested in NetBeans using JUnit.
 
-Last recorded test results: 32 tests passed, with 0 failures, errors, or skipped tests.
+Last recorded test results: 34 tests passed, with 0 failures, errors, or skipped tests.
 
 To run the tests, right-click the project in NetBeans and select Test. Run the tests again to verify the current results.
 
