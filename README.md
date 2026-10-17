@@ -35,3 +35,15 @@ The source code is maintained in the GitHub repository for Part 2.
 ## Author
 
 Lesego Pitsi Mokaba
+
+## Running the Tests
+
+The project uses Maven and JUnit 5 for automated testing.
+
+The test classes are:
+- `LoginTest.java` — tests user registration and login functionality.
+- `MessageTest.java` — tests message validation and message-related functionality.
+
+To run the tests in NetBeans, right-click the project and select **Test**.
+
+A successful test run should report 32 tests with zero failures and zero errors, based on the current test suite.
