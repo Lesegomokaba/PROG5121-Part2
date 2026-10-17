@@ -121,6 +121,12 @@ public void testSentMessage() {
     assertEquals("Message successfully sent", message.SentMessage());
 }
 
+@Test
+public void testNullMessageText() {
+    Message message = new Message();
+    message.setMessageText(null);
 
+    assertFalse(message.checkMessageText());
+}
 
 }
